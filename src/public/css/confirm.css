@@ -1,0 +1,79 @@
+.confirm__content {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.confirm {
+    text-align: center;
+    font-size: 24px;
+    color: #715c4d; /* taupe色 */
+    margin-bottom: 20px;
+    font-family: "Georgia", serif;
+}
+
+.form-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.form-table__inner {
+    width: 100%;
+}
+
+.form-table__row {
+    border-bottom: 1px solid #ddd;
+}
+
+.form-table__header {
+    width: 30%;
+    text-align: left;
+    font-weight: bold;
+    background-color: #715c4d; /* taupe色 */
+    color: #ffffff;
+    padding: 10px;
+}
+
+.form-table__text {
+    width: 70%;
+    background-color: #ffffff;
+    color: #715c4d;
+    padding: 10px;
+    font-size: 14px;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    color: #715c4d;
+    font-size: 14px;
+    resize: none;
+}
+
+.form__buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.form-buttons__submit,
+.form-buttons__back {
+    flex: 1;
+    padding: 10px 20px;
+    background-color: #715c4d; /* taupe色 */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-buttons__submit:hover,
+.form-buttons__back:hover {
+    background-color: #5b4639;
+}

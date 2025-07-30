@@ -1,0 +1,19 @@
+.header {
+    background: #fff;
+    text-align: center;
+}
+
+.header__logo {
+    margin-bottom: 20px;
+    color: #5a4a3f;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #4a3f35;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,42 @@
+.thanks__content {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 40px;
+    margin: 100px auto;
+    width: 50%;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.thanks {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.home-button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.home-button:hover {
+    background-color: #0056b3;
+}
+
+.thanks__content::before {
+    content: "Thank you.";
+    font-size: 80px;
+    color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
